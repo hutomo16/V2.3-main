@@ -1,0 +1,721 @@
+fileFormatVersion: 2
+guid: 66d91646a37b8294aa214fb420a05003
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vegetation Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1688
+        width: 140
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ba1dab1fcd5e4408e98bc42c465a26
+      internalID: 537426181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegetation Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1696
+        width: 135
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd86d49450d20854d92c06c4bfb1160d
+      internalID: -627813604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegetation Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1689
+        width: 316
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0981dbe78ffb7ef46a0fc91765dfe2ca
+      internalID: -1929155072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegetation Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1575
+        width: 381
+        height: 268
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cab1ac1c2979e3468b878fa23336981
+      internalID: 1280028472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegetation Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 1568
+        width: 276
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a427231fbdb8fe4f95e7347a420a826
+      internalID: 1152695569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegetation Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 1201
+        width: 286
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6555e2cc139fc4745896c35b699c4bdf
+      internalID: -155326728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegetation Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 1242
+        width: 189
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24276b702d4f154680c5601ee38d77b
+      internalID: -564598781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegetation Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 1254
+        width: 101
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038bec4d2a4d1a44ea46f11c15a27cab
+      internalID: -1447908507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegetation Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 1242
+        width: 293
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c888b98fc3413114b87c2d038efcec8f
+      internalID: -2071819193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegetation Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1284
+        width: 166
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4d85e2dd410994289cbfd33328f591
+      internalID: -2140652845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegetation Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1274
+        width: 289
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835a3624a24a0c947b30e7b6fb7129ea
+      internalID: 1703053030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegetation Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 829
+        width: 71
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0884f02a245ddda4d971a7d16ece8ce6
+      internalID: 923571965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegetation Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 829
+        width: 71
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a73aa0cd9b6464b9160ccbc75b53cd
+      internalID: 1989817636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegetation Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 829
+        width: 46
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639a2b2e50f93744f98e0a37b47b721e
+      internalID: 671891371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegetation Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 820
+        width: 304
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64db79fc06c571f47b54dd9ec87ce96f
+      internalID: -234006751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegetation Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 825
+        width: 48
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8654743d824204c45b9d857704731a7f
+      internalID: -1269713519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegetation Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 829
+        width: 61
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b911749c8e0dd64aab8a2fa5a614cc1
+      internalID: -90160168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegetation Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 831
+        width: 56
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb6805c1a07dcf42be41a6079f62ece
+      internalID: -1205585744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegetation Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 819
+        width: 123
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b84846100f3884baba3481f271b3ce
+      internalID: -2089743309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegetation Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 826
+        width: 62
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9968e0a9c476e44b8e2f876c7a6519
+      internalID: 1112260967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegetation Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 814
+        width: 93
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8d2c673ccde06409b8801b6f85ccfc
+      internalID: -308840889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegetation Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 530
+        width: 1120
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73316cb6ba6f4d24882bc58fb6af156a
+      internalID: 2091327651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegetation Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 480
+        width: 254
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f09f325355bc124d99d8b7a88568823
+      internalID: 486182825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegetation Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 161
+        width: 229
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886f38d251aaa554298d80dd0b92873f
+      internalID: 838311295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegetation Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 170
+        width: 224
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac79128de7fc43d47b47a6578b2110ed
+      internalID: 996518727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegetation Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 178
+        width: 199
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f09a64500c54a439190ec0d9b6340a
+      internalID: -679777947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegetation Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 174
+        width: 222
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722355d088fcf73469920b4813a97695
+      internalID: 497173244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Vegetation Sprite_0: 537426181
+      Vegetation Sprite_1: -627813604
+      Vegetation Sprite_10: 1703053030
+      Vegetation Sprite_11: 923571965
+      Vegetation Sprite_12: 1989817636
+      Vegetation Sprite_13: 671891371
+      Vegetation Sprite_14: -234006751
+      Vegetation Sprite_15: -1269713519
+      Vegetation Sprite_16: -90160168
+      Vegetation Sprite_17: -1205585744
+      Vegetation Sprite_18: -2089743309
+      Vegetation Sprite_19: 1112260967
+      Vegetation Sprite_2: -1929155072
+      Vegetation Sprite_20: -308840889
+      Vegetation Sprite_21: 2091327651
+      Vegetation Sprite_22: 486182825
+      Vegetation Sprite_23: 838311295
+      Vegetation Sprite_24: 996518727
+      Vegetation Sprite_25: -679777947
+      Vegetation Sprite_26: 497173244
+      Vegetation Sprite_3: 1280028472
+      Vegetation Sprite_4: 1152695569
+      Vegetation Sprite_5: -155326728
+      Vegetation Sprite_6: -564598781
+      Vegetation Sprite_7: -1447908507
+      Vegetation Sprite_8: -2071819193
+      Vegetation Sprite_9: -2140652845
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

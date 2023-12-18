@@ -1,0 +1,281 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &469238930311318808
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1403783043820906030}
+  - component: {fileID: 7043963704488560227}
+  - component: {fileID: 3783640239399687540}
+  - component: {fileID: 8085836569656038378}
+  m_Layer: 0
+  m_Name: NPCDialogueBox
+  m_TagString: NPC
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1403783043820906030
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469238930311318808}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.02, y: -2.21, z: 0}
+  m_LocalScale: {x: 1, y: 0.9962143, z: 0.9962143}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 4027164944949198956}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &7043963704488560227
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469238930311318808}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: cc4ffb265adfbe244bce79653ad461db, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &3783640239399687540
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469238930311318808}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.4, y: 3.4}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.53, y: 2.47}
+  m_EdgeRadius: 0
+--- !u!114 &8085836569656038378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469238930311318808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1de93dc0619843419d7d6936ab43e38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCanvas: {fileID: 0}
+  dialoguePanel: {fileID: 0}
+  dialogueText: {fileID: 0}
+  dialogue:
+  - Moo!
+  - Mooooo!
+  - MOOOOOOO!
+  - "Revolusi Industri dan dampaknya telah menjadi bencana bagi umat manusia. Hal-hal
+    tersebut telah sangat meningkatkan harapan hidup bagi kita yang tinggal di negara-negara
+    \u201Cmaju\u201D, namun hal-hal tersebut telah menggoyahkan masyarakat, membuat
+    kehidupan menjadi tidak memuaskan, menjadikan umat manusia terhina, telah menyebabkan
+    penderitaan psikologis yang luas (di Dunia Ketiga hingga penderitaan fisik juga)
+    dan telah menimbulkan kerusakan parah pada alam. Perkembangan teknologi yang
+    terus berlanjut akan memperburuk keadaan. Hal ini tentu akan menyebabkan umat
+    manusia mendapat penghinaan yang lebih besar dan menimbulkan kerusakan yang lebih
+    besar terhadap alam, hal ini mungkin akan menyebabkan gangguan sosial dan penderitaan
+    psikologis yang lebih besar, dan hal ini dapat menyebabkan peningkatan penderitaan
+    fisik bahkan di negara-negara \u201Cmaju\u201D. Sistem teknologi industri mungkin
+    bertahan atau mungkin rusak. Jika ia bertahan, pada akhirnya MUNGKIN akan mengalami
+    tingkat penderitaan fisik dan psikologis yang rendah, namun hanya setelah melewati
+    periode penyesuaian yang panjang dan sangat menyakitkan dan hanya dengan mengorbankan
+    manusia dan banyak organisme hidup lainnya secara permanen dan hanya menjadi
+    produk rekayasa. roda penggerak dalam mesin sosial. Lebih jauh lagi, jika sistem
+    ini tetap bertahan, konsekuensinya tidak bisa dihindari: Tidak ada cara untuk
+    mereformasi atau memodifikasi sistem agar tidak menghilangkan martabat dan otonomi
+    masyarakat. Jika sistemnya rusak, akibatnya masih sangat menyakitkan. Namun semakin
+    besar suatu sistem, maka semakin besar pula dampak buruk yang akan ditimbulkan
+    jika sistem tersebut rusak, jadi jika sistem tersebut ingin rusak, maka sebaiknya
+    sistem tersebut segera dirobohkan daripada terlambat. Oleh karena itu kami menganjurkan
+    revolusi melawan sistem industri. Revolusi ini mungkin menggunakan kekerasan
+    atau tidak; hal ini mungkin terjadi secara tiba-tiba atau mungkin merupakan proses
+    yang relatif bertahap yang berlangsung selama beberapa dekade. Kami tidak dapat
+    memprediksi semua itu. Namun kami menguraikan secara umum langkah-langkah yang
+    harus diambil oleh mereka yang membenci sistem industri untuk mempersiapkan jalan
+    bagi revolusi melawan bentuk masyarakat tersebut. Ini bukanlah revolusi POLITIK.
+    Tujuannya bukan untuk menggulingkan pemerintah, melainkan menghancurkan basis
+    ekonomi dan teknologi masyarakat saat ini. Dalam artikel ini kami hanya memberikan
+    perhatian pada beberapa perkembangan negatif yang muncul dari sistem teknologi
+    industri. Perkembangan lain yang serupa hanya kami sebutkan secara singkat atau
+    diabaikan sama sekali. Hal ini tidak berarti bahwa kami menganggap perkembangan-perkembangan
+    lainnya tidak penting. Untuk alasan praktis, kita harus membatasi diskusi kita
+    pada bidang-bidang yang kurang mendapat perhatian publik atau ada hal baru yang
+    ingin kita sampaikan. Misalnya, karena gerakan lingkungan hidup dan hutan belantara
+    sudah berkembang dengan baik, kami hanya menulis sedikit sekali tentang degradasi
+    lingkungan atau perusakan alam liar, meskipun kami menganggap hal ini sangat
+    penting."
+  wordSpeed: 0.06
+  isRange: 0
+  Anim: {fileID: 0}
+  Text: {fileID: 8028103287544571498}
+  contButton: {fileID: 0}
+--- !u!1 &8028103287544571498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4027164944949198956}
+  - component: {fileID: 3701870407711878731}
+  m_Layer: 0
+  m_Name: Button-E
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4027164944949198956
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8028103287544571498}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.53, y: 1.22, z: -0.06576232}
+  m_LocalScale: {x: 0.09, y: 0.09, z: 0.09}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1403783043820906030}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &3701870407711878731
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8028103287544571498}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 5d4b246ad6302fb478419f2ed6d6de95, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.24, y: 10.24}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0

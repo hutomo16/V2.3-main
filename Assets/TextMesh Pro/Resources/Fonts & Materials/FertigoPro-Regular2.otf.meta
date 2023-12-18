@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: e3782f3b9f632cf43a3ab507bdb2e3ed
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - FertigoPro
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 4616dbe497a2dfa478fdaaf63c10d9ef, type: 3}
+  - {fileID: 12800000, guid: e67ee2f7b5a6711498ec59676a6f32b6, type: 3}
+  - {fileID: 12800000, guid: e292ac83a5dc77c4db0e09768cde3137, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

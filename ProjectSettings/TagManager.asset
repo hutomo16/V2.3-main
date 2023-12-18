@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Wall
+  - Trap
+  - Heal
+  - GM
+  - CheckPoint 2
+  - NPC
+  - Enemy
+  - BreakableWall
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - Wall
+  - 
+  - 
+  - Player
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 951048201
+    locked: 0
+  - name: TileMapBase
+    uniqueID: 1607663575
+    locked: 0
+  - name: TileMapForeGround
+    uniqueID: 2994195337
+    locked: 0
+  - name: Ground
+    uniqueID: 1197034663
+    locked: 0
+  - name: Leaves 1
+    uniqueID: 2651206481
+    locked: 0
+  - name: Leaves 2
+    uniqueID: 3971901607
+    locked: 0
+  - name: Leaves 3
+    uniqueID: 3434833015
+    locked: 0
+  - name: Player
+    uniqueID: 2348058541
+    locked: 0
+  - name: Shader
+    uniqueID: 2051338299
+    locked: 0
+  - name: ForeGround
+    uniqueID: 2761737295
+    locked: 0
+  - name: Leaves 4
+    uniqueID: 1865871903
+    locked: 0
+  - name: Leaves 5
+    uniqueID: 2491886397
+    locked: 0
+  - name: Leaves6
+    uniqueID: 1343613199
+    locked: 0
